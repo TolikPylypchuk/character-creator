@@ -3,12 +3,10 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
   width: 65%;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .title {
@@ -35,4 +33,15 @@
 
 .controlColumn {
   width: 50%;
+  position: relative;
+}
+
+.bottomBackground {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40%;
+  background-color: hsl(195deg, 20%, 86%);
 }
